@@ -10,6 +10,7 @@ import vueI18n from '@intlify/vite-plugin-vue-i18n'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    base: import.meta.env.MODE === 'production' ? '/dcomb-vite-template/' :'/',
     plugins: [
         vue(),
         vueI18n({
