@@ -20,7 +20,7 @@ const routes: RouteRecordRaw[] = [
 
 // createRouter
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.MODE === 'production' ? '/dcomb-vite-template/' : ''),
     routes //Router List
 })
 export default router
