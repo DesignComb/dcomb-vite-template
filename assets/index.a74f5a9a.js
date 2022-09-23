@@ -1,0 +1,1 @@
+import{_ as t,r as s,o as c,c as n,b as a,w as r,d as e,a as _}from"./index.bb1dbcec.js";const l={},d={class:"w-full"},i=e(" This is About Page "),u=_("br",null,null,-1),f=e(" < Back to Home ");function h(m,p){const o=s("router-link");return c(),n("div",d,[i,u,a(o,{to:"/"},{default:r(()=>[f]),_:1})])}const k=t(l,[["render",h]]);export{k as default};
